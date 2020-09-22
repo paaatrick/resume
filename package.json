@@ -1,0 +1,23 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "author": "Patrick Kalita",
+  "description": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paaatrick/resume.git"
+  },
+  "scripts": {
+    "theme:build": "cd theme && npm run build",
+    "theme:watch": "cd theme && npm run watch",
+    "export:html": "resume export --theme local dist/index.html",
+    "export:pdf": "resume export --theme local dist/resume.pdf",
+    "export": "npm run export:html && npm run export:pdf"
+  },
+  "dependencies": {
+    "jsonresume-theme-local": "./theme",
+    "resume-cli": "^1.2.8"
+  }
+}
+  

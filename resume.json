@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json.schemastore.org/resume",
+  "basics": {
+    "name": "Patrick Kalita",
+    "email": "hello@patrickkalita.com",
+    "label": "Full stack software engineer with front end expertise",
+    "location": {
+      "city": "Springfield",
+      "region": "OR",
+      "postalCode": "97477",
+      "countryCode": "US"
+    },
+    "phone": "(630) 212-1315",
+    "url": "http://www.patrickkalita.com",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "paaatrick",
+        "url": "https://github.com/paaatrick"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "University of Oregon (Zebrafish Information Network)",
+      "location": "Eugene, OR",
+      "position": "Software Developer",
+      "url": "https://www.uoregon.edu",
+      "startDate": "2014-06-14",
+      "summary": "Full stack software development of zfin.org and alliancegenome.org",
+      "highlights": [
+        "Modernized zfin.org front-end software stack and build pipeline, migrating from a collection of jQuery plugins to Babel-compiled React components",
+        "Led team of front-end developers for alliancegenome.org, setting technical direction, managing release deliverables, and communicating with senior leadership",
+        "Redesigned and led implementation of new home page and critical data access pages for zfin.org"
+      ]
+    },
+    {
+      "name": "TurboSquid",
+      "location": "New Orleans, LA",
+      "position": "QA Developer",
+      "url": "https://www.turbosquid.com/",
+      "startDate": "2013-04-01",
+      "endDate": "2014-05-01",
+      "summary": "Developed automated web front-end and REST API tests in Java and Ruby for turbosquid.com and various internal projects",
+      "highlights": [
+        "Built a system for generating randomized 3D model and texture files, including a Python-based web interface",
+        "Led training sessions to teach Ruby programming basics to members of QA manual testing team",
+        "Initiated code review process within QA development group",
+        "Maintained continuous integration and testing server and pool of test execution machines"
+      ]
+    },
+    {
+      "name": "MathWorks",
+      "location": "Natick, MA",
+      "position": "Quality Engineer",
+      "url": "https://www.mathworks.com",
+      "startDate": "2009-11-01",
+      "endDate": "2013-03-01",
+      "summary": "Developed automated tests for MATLAB graphics and data visualization functionality using an extensible, object-oriented, xUnit-compatible testing framework",
+      "highlights": [
+        "Worked with developers to design test cases and authored test procedure documents to capture testing strategies",
+        "Led efforts to test graphics rendering performance and identify potential performance regressions",
+        "Maintained and extended a suite of tests designed to automatically validate the visual correctness of rendered graphics and charts",
+        "Developed a web-based, database-driven tool to track team member statuses and facilitate more efficient weekly meetings"
+      ]
+    },
+    {
+      "name": "MathWorks",
+      "location": "Natick, MA",
+      "position": "Application Support Engineer",
+      "url": "https://www.mathworks.com",
+      "startDate": "2008-06-01",
+      "endDate": "2009-11-01",
+      "summary": "Provided technical support to customers by creating examples and demonstrations, suggesting workarounds for bugs and limitations, and relaying enhancement requests to software developers",
+      "highlights": [
+        "Authored internal training materials on MATLAB graphics fundamentals, data visualization functions, and data exploration tools in MATLAB",
+        "Delivered presentation on volume visualization techniques in MATLAB which was presented internally for the technical support department and externally on a company blog for users"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Purdue University",
+      "url": "https://www.purdue.edu/",
+      "area": "Electrical Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2006-08-01",
+      "endDate": "2008-05-01",
+      "location": "West Lafayette, IN",
+      "summary": "Concentration in Signal and Image Processing"
+    },
+    {
+      "institution": "Rose-Hulman Institute of Technology",
+      "url": "https://www.rose-hulman.edu/",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2002-08-01",
+      "endDate": "2006-05-01",
+      "location": "Terre Haute, IN",
+      "summary": "Minor in Mathematics"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front End",
+      "keywords": [
+        "React",
+        "Redux",
+        "Webpack",
+        "Babel",
+        "Sass",
+        "CSS-in-JS",
+        "Bootstrap",
+        "D3",
+        "WebGL",
+        "Gatsby",
+        "AngularJS",
+        "jQuery"
+      ]
+    },
+    {
+      "name": "Back End",
+      "keywords": [
+        "Java",
+        "Groovy",
+        "Spring MVC",
+        "Tomcat",
+        "Hibernate",
+        "PostgreSQL",
+        "Node.js",
+        "Python", 
+        "Flask"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "keywords": [
+        "Git",
+        "SVN",
+        "Agile",
+        "Jira",
+        "Jenkins"
+      ]
+    }
+  ]
+}

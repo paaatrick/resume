@@ -12,6 +12,7 @@
     "theme:build": "cd theme && npm run build",
     "theme:watch": "cd theme && npm run watch",
     "clean": "rm -rf dist",
+    "preexport": "mkdir -p dist",
     "export:html": "resume export --theme local dist/index.html",
     "export:pdf": "resume export --theme local dist/resume.pdf",
     "export": "npm run export:html && npm run export:pdf",

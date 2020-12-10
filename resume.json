@@ -124,9 +124,9 @@
         "Java",
         "Groovy",
         "Spring MVC",
-        "Tomcat",
         "Hibernate",
         "PostgreSQL",
+        "Solr",
         "Node.js",
         "Python", 
         "Flask"

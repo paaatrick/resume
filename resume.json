@@ -22,11 +22,25 @@
   },
   "work": [
     {
+      "name": "Axiom Data Science",
+      "location": "Anchorage, AK (Remote)",
+      "position": "Software Engineer",
+      "url": "http://www.axiomdatascience.com",
+      "startDate": "2021-02-15",
+      "summary": "Full stack web development for a variety of partner organization projects and internal data management services",
+      "highlights": [
+        "Led development of a Python and FastAPI-based service for managing and analyzing tabular datasets, stored as Apache Parquet files",
+        "Built a set of tools for rapidly creating project landing websites based on Next.js, designed so the resulting sites are easily maintainable by non-programmers via Markdown files and YAML configuration",
+        "Developed JSON Schema-backed, complex data entry form interface for collecting marine animal stranding information"
+      ]
+    },
+    {
       "name": "University of Oregon (Zebrafish Information Network)",
       "location": "Eugene, OR",
       "position": "Software Developer",
       "url": "https://www.uoregon.edu",
       "startDate": "2014-06-14",
+      "endDate": "2021-02-05",
       "summary": "Full stack software development of zfin.org and alliancegenome.org",
       "highlights": [
         "Modernized zfin.org front-end software stack and build pipeline, migrating from a collection of jQuery plugins to Babel-compiled React components",
@@ -113,7 +127,7 @@
         "Bootstrap",
         "D3",
         "WebGL",
-        "Gatsby",
+        "Next.js",
         "AngularJS",
         "jQuery"
       ]
@@ -121,20 +135,22 @@
     {
       "name": "Back End",
       "keywords": [
+        "Node.js",
+        "Express",
         "Java",
-        "Groovy",
         "Spring MVC",
         "Hibernate",
-        "PostgreSQL",
-        "Solr",
-        "Node.js",
         "Python", 
-        "Flask"
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Elasticsearch"
       ]
     },
     {
       "name": "Workflow",
       "keywords": [
+        "Docker",
         "Git",
         "SVN",
         "Agile",

@@ -16,6 +16,21 @@ function render(resume) {
       </ThemeProvider>
     ));
     const style = sheet.getStyleTags();
+
+    let gtag = ''
+    if (process.env.GA_MEASUREMENT_ID) {
+      gtag = `
+        <script async src="https://www.googletagmanager.com/gtag/js?id=${process.env.GA_MEASUREMENT_ID}"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '${process.env.GA_MEASUREMENT_ID}');
+        </script>
+      `
+    }
+
     return `
   <!doctype html>
   <html>
@@ -25,6 +40,7 @@ function render(resume) {
       <title>${resume.basics.name}</title>
       <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
       ${style}
+      ${gtag}
     </head>
     <body>
       ${html}

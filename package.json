@@ -20,7 +20,7 @@
     "deploy": "gh-pages -d dist --cname resume.patrickkalita.com"
   },
   "dependencies": {
-    "gh-pages": "3.1.0",
+    "gh-pages": "^6.1.0",
     "jsonresume-theme-local": "./theme",
     "resume-cli": "^1.2.8"
   }

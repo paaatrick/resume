@@ -17,7 +17,7 @@
     "export:pdf": "resume export --theme local dist/resume.pdf",
     "export": "npm run export:html && npm run export:pdf",
     "predeploy": "npm run clean && npm run export",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --cname resume.patrickkalita.com"
   },
   "dependencies": {
     "gh-pages": "3.1.0",

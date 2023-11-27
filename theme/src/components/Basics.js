@@ -11,9 +11,9 @@ const Basics = ({basics}) => {
         <SubHead>{label}</SubHead>
       </div>
       <div>
-        <HorizontalList>
+        <HorizontalList align="end">
           <li>{location.city}, {location.region}</li>
-          <li>{phone}</li>
+          {phone && <li>{phone}</li>}
         </HorizontalList>
         <div><a href={`mailto:${email}`}>{email}</a></div>
         <div><a href={url}>{url}</a></div>
